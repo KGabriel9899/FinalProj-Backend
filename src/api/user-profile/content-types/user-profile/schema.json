@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_profiles",
+  "info": {
+    "singularName": "user-profile",
+    "pluralName": "user-profiles",
+    "displayName": "UserProfile",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "description": {
+      "type": "text"
+    },
+    "profilepic_url": {
+      "type": "string",
+      "unique": false,
+      "required": false
+    },
+    "users_id": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    }
+  }
+}
